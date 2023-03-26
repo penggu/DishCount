@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const DishCountApp());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class DishCountApp extends StatelessWidget {
+  const DishCountApp({super.key});
 
   // This widget is the root of your application.
   @override
