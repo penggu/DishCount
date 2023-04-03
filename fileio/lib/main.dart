@@ -7,10 +7,12 @@ import 'package:path_provider/path_provider.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(MaterialApp(home: FileIODemo()));
+  runApp(const MaterialApp(home: FileIODemo()));
 }
 
 class FileIODemo extends StatefulWidget {
+  const FileIODemo({super.key});
+
   @override
   _FileIODemoState createState() => _FileIODemoState();
 }
